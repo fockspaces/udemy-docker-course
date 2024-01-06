@@ -41,7 +41,9 @@ services:
 
 networks:
   frontend:
+    driver: overlay
   backend:
+    driver: overlay
 
 volumes:
   db-data:
