@@ -44,4 +44,4 @@ networks:
   backend:
 
 volumes:
-  data-volume:
+  db-data:
